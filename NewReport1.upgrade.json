@@ -1,0 +1,108 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": true
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-08-30T12:42:45.811957Z",
+  "analysisEndTime": "2024-08-30T12:43:31.7741826Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 1,
+      "incidents": 3,
+      "effort": 3
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 0,
+        "Optional": 0,
+        "Potential": 3,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 3
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "FcBarcelona\\FcBarcelona.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 3,
+      "ruleInstances": [
+        {
+          "incidentId": "ddd99ba4-efee-4a99-8506-21e018e0a75a",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FcBarcelona\\FcBarcelona.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.SqlServer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.SqlServer 8.0.8",
+              "protected": "Microsoft.EntityFrameworkCore.SqlServer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.SqlServer 8.0.8"
+            },
+            "kind": "File",
+            "path": "FcBarcelona\\FcBarcelona.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.SqlServer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.SqlServer 8.0.8",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.SqlServer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.SqlServer 8.0.8",
+            "label": "Microsoft.EntityFrameworkCore.SqlServer 6.0.33"
+          }
+        },
+        {
+          "incidentId": "a3c984b0-c698-46b5-842f-167900de8880",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FcBarcelona\\FcBarcelona.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNetCore.Authentication.JwtBearer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.AspNetCore.Authentication.JwtBearer 8.0.8",
+              "protected": "Microsoft.AspNetCore.Authentication.JwtBearer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.AspNetCore.Authentication.JwtBearer 8.0.8"
+            },
+            "kind": "File",
+            "path": "FcBarcelona\\FcBarcelona.csproj",
+            "snippet": "Microsoft.AspNetCore.Authentication.JwtBearer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.AspNetCore.Authentication.JwtBearer 8.0.8",
+            "protectedSnippet": "Microsoft.AspNetCore.Authentication.JwtBearer, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.AspNetCore.Authentication.JwtBearer 8.0.8",
+            "label": "Microsoft.AspNetCore.Authentication.JwtBearer 6.0.33"
+          }
+        },
+        {
+          "incidentId": "993bed43-a482-4e84-bd85-d63037c3ec36",
+          "ruleId": "NuGet.0002",
+          "projectPath": "FcBarcelona\\FcBarcelona.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Tools, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.Tools 8.0.8",
+              "protected": "Microsoft.EntityFrameworkCore.Tools, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.Tools 8.0.8"
+            },
+            "kind": "File",
+            "path": "FcBarcelona\\FcBarcelona.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Tools, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.Tools 8.0.8",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Tools, 6.0.33\n\nRecomendaci\u00F3n:\n\nMicrosoft.EntityFrameworkCore.Tools 8.0.8",
+            "label": "Microsoft.EntityFrameworkCore.Tools 6.0.33"
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "Se recomienda actualizar el paquete NuGet para la plataforma de destino seleccionada.\n\nSe recomienda que los paquetes .NET est\u00E1ndar tengan versiones que coincidan con la versi\u00F3n de .NET de destino del proyecto.\n\nTambi\u00E9n se sabe que otros paquetes funcionan mejor para las plataformas de destino seleccionadas.",
+      "label": "Se recomienda actualizar el paquete NuGet",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
